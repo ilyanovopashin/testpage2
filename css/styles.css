@@ -1,0 +1,21 @@
+body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+    }
+    p {
+      text-align: center;
+    }
+    body > p {
+      padding: 0 30%;
+    }
+    #talking-head {
+      width: 900px;
+      height: 600px;
+      resize: both;
+      overflow: auto;
+      box-shadow: 2px 2px 14px -2px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      background-color: antiquewhite;
+    }
